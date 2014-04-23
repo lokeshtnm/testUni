@@ -9,9 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @protocol SlideViewDelegate <NSObject>
-
-
-
+@optional
+-(void)didButtonClick:(UIButton*)btn;
 @end
 
 @interface SlideView : UIView
