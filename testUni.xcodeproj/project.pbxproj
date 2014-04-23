@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F53E00EB1907F2D300A66047 /* Entity.m in Sources */ = {isa = PBXBuildFile; fileRef = F53E00EA1907F2D300A66047 /* Entity.m */; };
 		F595215D1907720100CCB3CE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F595215C1907720100CCB3CE /* Foundation.framework */; };
 		F595215F1907720100CCB3CE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F595215E1907720100CCB3CE /* CoreGraphics.framework */; };
 		F59521611907720100CCB3CE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F59521601907720100CCB3CE /* UIKit.framework */; };
@@ -28,6 +29,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F53E00E91907F2D300A66047 /* Entity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Entity.h; sourceTree = "<group>"; };
+		F53E00EA1907F2D300A66047 /* Entity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Entity.m; sourceTree = "<group>"; };
 		F59521591907720100CCB3CE /* testUni.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testUni.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F595215C1907720100CCB3CE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F595215E1907720100CCB3CE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -118,6 +121,8 @@
 				F59521991907732D00CCB3CE /* SlideView.m */,
 				F595219D1907737300CCB3CE /* SlideView.xib */,
 				F595219B1907735B00CCB3CE /* SlideView~iPad.xib */,
+				F53E00E91907F2D300A66047 /* Entity.h */,
+				F53E00EA1907F2D300A66047 /* Entity.m */,
 			);
 			path = testUni;
 			sourceTree = "<group>";
@@ -202,6 +207,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F53E00EB1907F2D300A66047 /* Entity.m in Sources */,
 				F595216F1907720100CCB3CE /* AppDelegate.m in Sources */,
 				F595219A1907732D00CCB3CE /* SlideView.m in Sources */,
 				F595216B1907720100CCB3CE /* main.m in Sources */,
