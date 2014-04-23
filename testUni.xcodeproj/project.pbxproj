@@ -16,10 +16,6 @@
 		F595216F1907720100CCB3CE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F595216E1907720100CCB3CE /* AppDelegate.m */; };
 		F59521721907720100CCB3CE /* testUni.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F59521701907720100CCB3CE /* testUni.xcdatamodeld */; };
 		F59521741907720100CCB3CE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F59521731907720100CCB3CE /* Images.xcassets */; };
-		F595217B1907720200CCB3CE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F595217A1907720200CCB3CE /* XCTest.framework */; };
-		F595217C1907720200CCB3CE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F595215C1907720100CCB3CE /* Foundation.framework */; };
-		F595217D1907720200CCB3CE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F59521601907720100CCB3CE /* UIKit.framework */; };
-		F595217E1907720200CCB3CE /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F59521621907720100CCB3CE /* CoreData.framework */; };
 		F59521941907722700CCB3CE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F59521921907722700CCB3CE /* ViewController.m */; };
 		F59521951907722700CCB3CE /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F59521931907722700CCB3CE /* ViewController.xib */; };
 		F59521971907726B00CCB3CE /* ViewController~iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = F59521961907726B00CCB3CE /* ViewController~iPad.xib */; };
@@ -30,16 +26,6 @@
 		F59521A21907751600CCB3CE /* arrow_right.png in Resources */ = {isa = PBXBuildFile; fileRef = F59521A01907751600CCB3CE /* arrow_right.png */; };
 		F59521A4190781E700CCB3CE /* UIViewController+extra.m in Sources */ = {isa = PBXBuildFile; fileRef = F59521A3190781E700CCB3CE /* UIViewController+extra.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		F595217F1907720200CCB3CE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F59521511907720100CCB3CE /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F59521581907720100CCB3CE;
-			remoteInfo = testUni;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		F59521591907720100CCB3CE /* testUni.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testUni.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -55,7 +41,6 @@
 		F595216E1907720100CCB3CE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		F59521711907720100CCB3CE /* testUni.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = testUni.xcdatamodel; sourceTree = "<group>"; };
 		F59521731907720100CCB3CE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		F59521791907720200CCB3CE /* testUniTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testUniTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F595217A1907720200CCB3CE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		F59521911907722700CCB3CE /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		F59521921907722700CCB3CE /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
@@ -82,17 +67,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F59521761907720200CCB3CE /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F595217B1907720200CCB3CE /* XCTest.framework in Frameworks */,
-				F595217E1907720200CCB3CE /* CoreData.framework in Frameworks */,
-				F595217D1907720200CCB3CE /* UIKit.framework in Frameworks */,
-				F595217C1907720200CCB3CE /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -109,7 +83,6 @@
 			isa = PBXGroup;
 			children = (
 				F59521591907720100CCB3CE /* testUni.app */,
-				F59521791907720200CCB3CE /* testUniTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -180,24 +153,6 @@
 			productReference = F59521591907720100CCB3CE /* testUni.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F59521781907720200CCB3CE /* testUniTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F595218E1907720200CCB3CE /* Build configuration list for PBXNativeTarget "testUniTests" */;
-			buildPhases = (
-				F59521751907720200CCB3CE /* Sources */,
-				F59521761907720200CCB3CE /* Frameworks */,
-				F59521771907720200CCB3CE /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F59521801907720200CCB3CE /* PBXTargetDependency */,
-			);
-			name = testUniTests;
-			productName = testUniTests;
-			productReference = F59521791907720200CCB3CE /* testUniTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -206,11 +161,6 @@
 			attributes = {
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = TNM_ios2;
-				TargetAttributes = {
-					F59521781907720200CCB3CE = {
-						TestTargetID = F59521581907720100CCB3CE;
-					};
-				};
 			};
 			buildConfigurationList = F59521541907720100CCB3CE /* Build configuration list for PBXProject "testUni" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -225,7 +175,6 @@
 			projectRoot = "";
 			targets = (
 				F59521581907720100CCB3CE /* testUni */,
-				F59521781907720200CCB3CE /* testUniTests */,
 			);
 		};
 /* End PBXProject section */
@@ -246,13 +195,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F59521771907720200CCB3CE /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -269,22 +211,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F59521751907720200CCB3CE /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		F59521801907720200CCB3CE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F59521581907720100CCB3CE /* testUni */;
-			targetProxy = F595217F1907720200CCB3CE /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		F59521671907720100CCB3CE /* InfoPlist.strings */ = {
@@ -394,46 +321,6 @@
 			};
 			name = Release;
 		};
-		F595218F1907720200CCB3CE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/testUni.app/testUni";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "testUni/testUni-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "testUniTests/testUniTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		F59521901907720200CCB3CE /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/testUni.app/testUni";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "testUni/testUni-Prefix.pch";
-				INFOPLIST_FILE = "testUniTests/testUniTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -453,14 +340,7 @@
 				F595218D1907720200CCB3CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		F595218E1907720200CCB3CE /* Build configuration list for PBXNativeTarget "testUniTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F595218F1907720200CCB3CE /* Debug */,
-				F59521901907720200CCB3CE /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
